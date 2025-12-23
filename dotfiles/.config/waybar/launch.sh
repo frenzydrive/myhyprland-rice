@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-killall waybar
-killall waybar
-waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css &
+killall -q waybar
+sleep 1
+waybar -c "$HOME/.config/waybar/config.jsonc"
+&
