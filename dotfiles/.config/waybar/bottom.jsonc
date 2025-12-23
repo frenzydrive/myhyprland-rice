@@ -1,0 +1,16 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 45,
+    "modules-center": [
+        "wlr/taskbar"
+    ],
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 28,
+        "on-click": "minimize-raise",
+        "on-click-middle": "close",
+        "ignore-list": [],
+        "active-first": false
+    }
+}
